@@ -91,16 +91,16 @@ export default function Navbar() {
               <Link to="/counselors" className="hover:underline">
                 Find Counselors
               </Link>
-              {isAdmin && (
-                <>
-                  <Link to="/add-counselor" className="hover:underline">
+              {/* {isAdmin && ( */}
+              <>
+                {/* <Link to="/add-counselor" className="hover:underline">
                     Add Counselor
-                  </Link>
-                  <Link to="/admin-counselors" className="hover:underline">
-                    Admin Panel
-                  </Link>
-                </>
-              )}
+                  </Link> */}
+                <Link to="/admin-counselors" className="hover:underline">
+                  Admin Panel
+                </Link>
+              </>
+              {/* )} */}
 
               <Link to="/profile" className="hover:underline">
                 My Profile
