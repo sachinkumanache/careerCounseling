@@ -1,12 +1,101 @@
-# React + Vite
+🎓 Career Counseling App – OnBook  💼
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Connect students with expert career counselors for one-on-one guidance, session booking, and personalized career support.
 
-Currently, two official plugins are available:
+Real-time appointments powered by React, Firebase, and a fully responsive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Live Demo: https://onbook-career-app.netlify.app
 
-## Expanding the ESLint configuration
+📁 GitHub Repo: https://github.com/sachinkumanache/careerCounseling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Features
+✅ Student Registration and Login (Firebase Auth)
+
+✅ Browse Available Counselors with Profile Images
+
+✅ Book Counseling Sessions by Time and Date
+
+✅ Real-Time Session Management with Firebase Database
+
+✅ Session Timer: Countdown to the Meeting Time
+
+✅ Dashboard for Users to See Booked Sessions and Counselor Details
+
+✅ Admin Panel to View All Bookings and Manage Data
+
+✅ Responsive UI for Both Mobile and Desktop
+
+🖼️ Screenshots
+
+
+
+
+📦 Tech Stack
+
+Tech	Usage
+React	UI Development
+
+Firebase Auth	User Authentication
+
+Firebase Realtime DB	Storing Sessions & Counselor Info
+
+Context API	Theme Management (Light/Dark Mode)
+
+CSS Modules / Custom CSS	Responsive Design
+
+React Router DOM	Routing and Navigation
+
+📂 Folder Structure
+src/         
+├── components/      
+│   ├── Navbar.jsx    
+│   ├── CounselorCard.jsx   
+│   ├── SessionTimer.jsx    
+├── pages/     
+│   ├── Home.jsx      
+│   ├── BookSession.jsx   
+│   ├── Dashboard.jsx    
+│   ├── AdminPanel.jsx        
+│   ├── Login.jsx         
+│   ├── Signup.jsx           
+├── context/        
+│   ├── ThemeContext.js      
+├── firebase/      
+│   ├── firebaseConfig.js       
+├── App.jsx      
+├── main.jsx      
+└── index.css       
+🔐 Authentication  
+
+Firebase Authentication for secure sign-up and login.
+
+Protected routes for Dashboard/Admin Panel using PrivateRoute.
+
+User session is stored and checked using onAuthStateChanged.
+
+🛠️ How to Run Locally
+
+# 1. Clone the repo
+git clone https://github.com/sachinkumanache/career-counseling-app.git
+
+# 2. Navigate into the folder
+cd career-counseling-app
+
+# 3. Install dependencies
+npm install
+
+# 4. Set up Firebase
+- Create a Firebase project
+- Enable Authentication and Realtime Database
+- Replace your Firebase config inside firebaseConfig.js
+
+# 5. Run the app
+npm run dev
+
+🙋‍♂️ Author 
+Sachin Kumanache
+
+🔗 LinkedIn
+
+📫 GitHub
+
