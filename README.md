@@ -4,7 +4,7 @@ Connect students with expert career counselors for one-on-one guidance, session 
 
 Real-time appointments powered by React, Firebase, and a fully responsive UI.
 
-🔗 Live Demo: https://onbook-career-app.netlify.app
+🔗 Live Demo: https://peppy-dolphin-e49bbb.netlify.app/
 
 📁 GitHub Repo: https://github.com/sachinkumanache/careerCounseling
 
