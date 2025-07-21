@@ -9,6 +9,7 @@ Real-time appointments powered by React, Firebase, and a fully responsive UI.
 📁 GitHub Repo: https://github.com/sachinkumanache/careerCounseling
 
 🚀 Features
+
 ✅ Student Registration and Login (Firebase Auth)
 
 ✅ Browse Available Counselors with Profile Images
@@ -26,7 +27,11 @@ Real-time appointments powered by React, Firebase, and a fully responsive UI.
 ✅ Responsive UI for Both Mobile and Desktop
 
 🖼️ Screenshots
+<img width="1366" height="768" alt="Screenshot (525)" src="https://github.com/user-attachments/assets/28e2a6dd-6e53-41a9-a119-8d792f3f8774" />
 
+<img width="1366" height="768" alt="Screenshot (526)" src="https://github.com/user-attachments/assets/2fc573e8-7915-440d-afe1-22fefbe08f7a" />
+
+<img width="1366" height="768" alt="Screenshot (527)" src="https://github.com/user-attachments/assets/1c519290-207d-4aaf-8eee-6319119f7cc3" />
 
 
 
@@ -46,7 +51,8 @@ CSS Modules / Custom CSS	Responsive Design
 React Router DOM	Routing and Navigation
 
 📂 Folder Structure
-src/         
+
+src/                     
 ├── components/      
 │   ├── Navbar.jsx    
 │   ├── CounselorCard.jsx   
@@ -64,7 +70,8 @@ src/
 │   ├── firebaseConfig.js       
 ├── App.jsx      
 ├── main.jsx      
-└── index.css       
+└── index.css   
+
 🔐 Authentication  
 
 Firebase Authentication for secure sign-up and login.
@@ -76,10 +83,10 @@ User session is stored and checked using onAuthStateChanged.
 🛠️ How to Run Locally
 
 # 1. Clone the repo
-git clone https://github.com/sachinkumanache/career-counseling-app.git
+git clone https://github.com/sachinkumanache/careerCounseling.git
 
 # 2. Navigate into the folder
-cd career-counseling-app
+cd careerCounseling
 
 # 3. Install dependencies
 npm install
@@ -95,7 +102,7 @@ npm run dev
 🙋‍♂️ Author 
 Sachin Kumanache
 
-🔗 LinkedIn
+🔗 LinkedIn-https://www.linkedin.com/in/sachin-kumanache/
 
-📫 GitHub
+📫 GitHub-https://github.com/sachinkumanache
 
