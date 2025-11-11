@@ -6,7 +6,7 @@ Real-time appointments powered by React, Firebase, and a fully responsive UI.
 
 🔗 Live Demo: https://peppy-dolphin-e49bbb.netlify.app/
 
-📁 GitHub Repo: https://github.com/sachinkumanache/careerCounseling
+📁 GitHub Repo: https://github.com/sachinkumanache/CareerCounselling-Career-Guidance-Platform
 
 🚀 Features
 
@@ -83,7 +83,7 @@ User session is stored and checked using onAuthStateChanged.
 🛠️ How to Run Locally
 
 # 1. Clone the repo
-git clone https://github.com/sachinkumanache/careerCounseling.git
+git clone    https://github.com/sachinkumanache/CareerCounselling-Career-Guidance-Platform.git
 
 # 2. Navigate into the folder
 cd careerCounseling
