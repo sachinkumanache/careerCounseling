@@ -1,4 +1,4 @@
-🎓 Career Counseling App – OnBook  💼
+🎓CareerCounselling – Career Guidance Platform  💼
 
 Connect students with expert career counselors for one-on-one guidance, session booking, and personalized career support.
 
